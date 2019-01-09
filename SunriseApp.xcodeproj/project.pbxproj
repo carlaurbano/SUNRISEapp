@@ -15,6 +15,10 @@
 		3E1CB0A721D6202B0038CEDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1CB0A621D6202B0038CEDC /* main.m */; };
 		3E1CB0B121D6202C0038CEDC /* SunriseAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1CB0B021D6202C0038CEDC /* SunriseAppTests.m */; };
 		3E1CB0BC21D6202C0038CEDC /* SunriseAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1CB0BB21D6202C0038CEDC /* SunriseAppUITests.m */; };
+		3EE0145221E6A1B100CC7B3A /* WeatherFiles in Resources */ = {isa = PBXBuildFile; fileRef = 3EE0145121E6A1B100CC7B3A /* WeatherFiles */; };
+		3EE0145421E6A1CE00CC7B3A /* TextFiles_Arduino in Resources */ = {isa = PBXBuildFile; fileRef = 3EE0145321E6A1CE00CC7B3A /* TextFiles_Arduino */; };
+		3EE0145621E6A1EC00CC7B3A /* TextFiles_Weather in Resources */ = {isa = PBXBuildFile; fileRef = 3EE0145521E6A1EC00CC7B3A /* TextFiles_Weather */; };
+		3EE0145821E6A1F800CC7B3A /* Extra files in Resources */ = {isa = PBXBuildFile; fileRef = 3EE0145721E6A1F800CC7B3A /* Extra files */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		3E1CB0B721D6202C0038CEDC /* SunriseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1CB0BB21D6202C0038CEDC /* SunriseAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunriseAppUITests.m; sourceTree = "<group>"; };
 		3E1CB0BD21D6202C0038CEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE0145121E6A1B100CC7B3A /* WeatherFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WeatherFiles; sourceTree = "<group>"; };
+		3EE0145321E6A1CE00CC7B3A /* TextFiles_Arduino */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextFiles_Arduino; sourceTree = "<group>"; };
+		3EE0145521E6A1EC00CC7B3A /* TextFiles_Weather */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextFiles_Weather; sourceTree = "<group>"; };
+		3EE0145721E6A1F800CC7B3A /* Extra files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Extra files"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 		3E1CB09621D6202A0038CEDC /* SunriseApp */ = {
 			isa = PBXGroup;
 			children = (
+				3EE0145721E6A1F800CC7B3A /* Extra files */,
+				3EE0145521E6A1EC00CC7B3A /* TextFiles_Weather */,
+				3EE0145321E6A1CE00CC7B3A /* TextFiles_Arduino */,
+				3EE0145121E6A1B100CC7B3A /* WeatherFiles */,
 				3E1CB09721D6202A0038CEDC /* AppDelegate.h */,
 				3E1CB09821D6202A0038CEDC /* AppDelegate.m */,
 				3E1CB09A21D6202A0038CEDC /* ViewController.h */,
@@ -237,7 +249,11 @@
 			files = (
 				3E1CB0A421D6202B0038CEDC /* LaunchScreen.storyboard in Resources */,
 				3E1CB0A121D6202B0038CEDC /* Assets.xcassets in Resources */,
+				3EE0145621E6A1EC00CC7B3A /* TextFiles_Weather in Resources */,
+				3EE0145821E6A1F800CC7B3A /* Extra files in Resources */,
 				3E1CB09F21D6202A0038CEDC /* Main.storyboard in Resources */,
+				3EE0145421E6A1CE00CC7B3A /* TextFiles_Arduino in Resources */,
+				3EE0145221E6A1B100CC7B3A /* WeatherFiles in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
