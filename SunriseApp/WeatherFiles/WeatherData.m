@@ -16,7 +16,7 @@
         if (error) {
             NSLog(@"NSJSONSerialization failed with error: %@", [error localizedDescription]);
             return self;
-        }
+        } 
         if ([jsonObject isKindOfClass:[NSDictionary class]]) {
             id idName = [jsonObject objectForKey:@"name"];
             if ([idName isKindOfClass:[NSString class]]) {_name = idName;}

@@ -20,6 +20,8 @@
     return sharedInstance;
 }
 
+
+
 - (void)fetchCurrentWeatherDataForLocation:(CLLocation *)location completion:(void(^)(WeatherData *weatherData))completion failure:(void(^)(NSError* error))failure{
     //latitude and longitude of the current position
     float latitude = location.coordinate.latitude;
